@@ -1,0 +1,100 @@
+.section_main_calculator {
+    background-color: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+}
+
+.explication {
+    font-size: 1.5vw;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2vw;
+    text-align: center;
+    width: 75%;
+}
+
+.calculator {
+    color: white;
+    text-align: center;
+    margin-top: 3vw;
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(29deg, rgba(2, 0, 36, 1) 0%, rgba(9, 40, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 9px 9px 9px 9px;
+    padding: 1vw 2vw 1vw 2vw;
+    -webkit-box-shadow: 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+}
+
+.calculator select {
+    font-size: 1.5vw;
+    width: 60%;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    color: white;
+    background-color: rgb(38, 38, 173);
+    border: 2px solid rgb(38, 38, 173);
+}
+
+.calculator button {
+    background: black;
+    border: 0px solid #000000;
+    border-radius: 9px 9px 9px 9px;
+    color: white;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    transition: all 0.3s;
+    width: 50%;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+}
+
+.calculator button:hover {
+    background: rgb(26, 26, 26);
+    transform: scale(1.1);
+}
+
+
+/**Result**/
+
+.section_result {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    margin-top: 2vw;
+    text-align: center;
+    padding: 1vw 2vw 1vw 2vw;
+    -webkit-box-shadow: 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 28px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 2px 18px -5px rgba(0, 0, 0, 0.75);
+}
+
+.section_result h3 {
+    color: #ff0d0d;
+    font-weight: 700;
+    margin-bottom: 2vw;
+}
+
+.section_result p {
+    background: linear-gradient(29deg, rgba(2, 0, 36, 1) 0%, rgba(9, 40, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'noto sans';
+    font-size: 1.5vw;
+    margin-top: 1vw;
+}

@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+h1 {
+    font-size: 6vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+
+/**Preloader**/
+
+.centrar {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.preloader {
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    border: 10px solid #eee;
+    border-radius: 50%;
+    border-top: 10px solid #666;
+    height: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vw;
+    width: 15vw;
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/**Header**/
+
+header {
+    background-image: url('wallpaper.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 62vh;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-image: url('wallpaper.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 65vh;
+    text-align: center;
+    color: white;
+}
+
+#headerBasic {
+    background-image: url('wallpaper.jpg');
+    background-size: 100%;
+    background-position: center;
+    height: 10vh;
+    text-align: center;
+    color: white;
+}
+
+.title_header {
+    margin-top: 4vh;
+    font-size: 7vw;
+    font-family: 'poppins';
+    animation: fadeInUp;
+    animation-duration: 3s;
+}
+
+.subtitle_header {
+    margin-top: 1vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vw;
+}
+
+.nav_title {
+    font-size: 2vw;
+    margin-left: 1vw;
+    text-transform: uppercase;
+}
+
+.nav_text {
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    color: white;
+    text-transform: uppercase;
+}
+
+.input_search {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+
+.input_search div button {
+    background: black;
+    border: 2px solid black;
+    font-size: 2vw;
+    transition: all 0.3s;
+}
+
+.input_search div button:hover {
+    background: rgb(26, 26, 26);
+    border: 2px solid rgb(26, 26, 26);
+    font-size: 2vw;
+}
+
+.input_search input {
+    background: rgba(0, 0, 0, 0.774);
+    border: 2px solid black;
+    font-size: 2vw;
+}
+
+.input_search input:focus {
+    background: rgba(0, 0, 0, 0.774);
+    border: 2px solid rgba(0, 0, 0, 0.774);
+    font-size: 2vw;
+}
+
+
+/**Articles planets**/
+
+main {}
+
+.section_planets {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    column-count: 4;
+    column-gap: 15px;
+    column-fill: auto;
+}
+
+.article_planet {
+    width: 100%;
+    background: rgb(19, 19, 19);
+    padding: 1vw 2vw 1vw 2vw;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 1vw;
+}
+
+.article_planet img {
+    width: 100%;
+}
+
+
+/**Quote**/
+
+.quote_section {
+    height: 35vh;
+    width: 100%;
+    background-image: url('https://p1.pxfuel.com/preview/484/769/83/space-nasa-purple.jpg');
+    margin-bottom: 3vw;
+}
+
+.quote {
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'poppins';
+}
+
+.quote_autor {
+    margin-right: 10vw;
+    float: right;
+    font-size: 2vw;
+}
+
+
+/**Section calculator**/
+
+.section_calculator {
+    background-color: white;
+    color: black;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.section_calculator h2 {
+    font-family: 'poppins';
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.section_calculator a button {
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 9px 9px 9px 9px;
+    -moz-border-radius: 9px 9px 9px 9px;
+    -webkit-border-radius: 9px 9px 9px 9px;
+    border: 0px solid #000000;
+    color: white;
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-top: 2.5vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    transition: all 0.3s;
+}
+
+.section_calculator a button:hover {
+    background: rgb(26, 26, 26);
+    border: 0px solid rgb(26, 26, 26);
+    transform: scale(1.1);
+}
+
+
+/**Footer**/
+
+footer {
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+footer span {
+    color: white;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
