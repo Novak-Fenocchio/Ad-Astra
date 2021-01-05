@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="https://www.kindpng.com/picc/m/25-257834_freetoedit-png-stars-galaxy-transparent-outer-space-png.png" type="image/x-icon">
+    <title>Ad Astra</title>
+</head>
+
+<body>
+    <header id='headerBasic'>
+        <nav>
+            <h4 class='nav_title '>Ad Astra</h4>
+            <div class="nav_separation">
+                <a href=""><span class='nav_text'>Stars</span></a>
+                <a href=""><span class='nav_text'>Galaxy</span></a>
+                <a href=""><span class='nav_text'>Planets</span></a>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class='section_main_calculator'>
+            <div class="title">
+                <h2 id='title_calculator'>Calculator of sunlight's velocity</h2>
+            </div>
+            <p class='explication'>The light travel from the sun to our planets, this trip has a duration, it depends of the distancy between the bodies, You can calculate it with this calculator. </p>
+            <div class="calculator">
+                <h3>Select the planet</h3>
+                <select name="" id="planet">
+                        <option value="">Select a planet</option>
+                        <option value="Mercury">Mercury</option>
+                        <option value="Earth">Earth</option>
+                        <option value="Mars">Mars</option>
+                        <option value="Jupiter">Júpiter</option>
+                        <option value="Saturn">Saturno</option>
+                        <option value="Uranus">Urano</option>
+                        <option value="Neptune">Neptuno</option>
+                        <option value="Pluton">Plutón</option>
+                    </select> <br>
+                <button id='calculate'>Calculate</button>
+            </div>
+            <section class='section_result' style='display:none;'>
+                <h2>The travel's duration of the sunlight to the <span id='planetName'></span> is:</h2>
+                <h3 id='duration'></h3>
+                <p>how many things you can do in just <span id='question'></span>? The sunlight can travel <span id='distance'></span> kilometers.</p>
+                <p>she flies at 300,000 kilometers per second.</p>
+            </section>
+        </section>
+
+        <footer class='footer'>
+            <span>Martín Fenocchio - 2/1/2020</span>
+        </footer>
+
+    </main>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src='js/jquery.min.js'></script>
+    <script src='js/jquery.aniview.js'></script>
+    <script src='js/index.js'></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>
