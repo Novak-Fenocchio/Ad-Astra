@@ -1,0 +1,78 @@
+@media(max-width: 800px) {
+    /* Header */
+    header {
+        height: 15vh;
+    }
+    .title_header {
+        font-size: 12vw;
+        margin-top: 3vw;
+    }
+    .subtitle_header {
+        font-size: 3vw;
+    }
+    nav {
+        display: none;
+    }
+    .nav_title {
+        font-size: 4vw;
+    }
+    .nav_text {
+        font-size: 3vw;
+    }
+    .input_search {
+        display: none;
+    }
+    /* Section planets */
+    .section_planets {
+        display: block;
+        column-count: 1;
+        column-gap: 15px;
+        column-fill: auto;
+        width: 90%;
+    }
+    .article_planet {
+        display: grid;
+        grid-template-columns: 68% 30%;
+        grid-gap: 3vw;
+    }
+    .article_planet p {
+        font-size: 2vw;
+    }
+    .article_planet img {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    /* Quote */
+    .quote_section {
+        height: 15vh;
+    }
+    .quote {
+        height: 10vh;
+    }
+    .quote h2 {
+        font-size: 4vw;
+        margin-top: 3vh;
+    }
+    .quote_autor {
+        font-size: 3vw;
+        margin-top: 1vw;
+    }
+    /* Section calculator */
+    .section_calculator h2 {
+        font-size: 4vw;
+    }
+    .section_calculator h5 {
+        font-size: 3vw;
+    }
+    .section_calculator a button {
+        font-size: 4vw;
+        border: 1px solid black;
+        border-radius: 4px 4px 4px 4px;
+        -moz-border-radius: 4px 4px 4px 4px;
+        -webkit-border-radius: 4px 4px 4px 4px;
+        padding: 1vw 2vw 1vw 2vw;
+    }
+    footer span {
+        font-size: 3vw;
+    }
+}
