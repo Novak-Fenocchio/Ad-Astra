@@ -75,4 +75,66 @@
     footer span {
         font-size: 3vw;
     }
+    /* Calculator */
+    .section_main_calculator {
+        width: 95%;
+    }
+    #title_calculator {
+        font-size: 6vw;
+    }
+    .explication {
+        font-size: 3vw;
+        width: 100%;
+    }
+    .calculator {
+        width: 90%;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+    #planet {
+        font-size: 4vw;
+    }
+    #calculate {
+        font-size: 3vw;
+        border: 0px solid #000000;
+        border-radius: 5px 5px 5px 5px;
+        -moz-border-radius: 5px 5px 5px 5px;
+        -webkit-border-radius: 5px 5px 5px 5px;
+        width: 80%;
+    }
+    /* Result */
+    .section_result h2 {
+        font-size: 4vw;
+    }
+    .section_result p {
+        font-size: 3vw;
+    }
+    /* Preloader */
+    /**Preloader**/
+    .centrar {
+        margin-top: 2vw;
+        text-align: center;
+    }
+    .preloader {
+        animation-name: girar;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        border: 10px solid #eee;
+        border-radius: 50%;
+        border-top: 10px solid #666;
+        height: 15vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 25vh;
+        width: 15vw;
+    }
+    @keyframes girar {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
 }
